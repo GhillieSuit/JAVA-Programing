@@ -2,7 +2,7 @@ package matrix.multiplication;
 
 public class MatrixMultiplication 
 {
-    public static void prtarr(int[][] arr)
+    public static void prtarr(int[][] arr)	//Çà·Ä Ãâ·Â
     {
         for(int i = 0; i < arr.length; i++)
         {
@@ -14,7 +14,7 @@ public class MatrixMultiplication
         }
     }   
 
-    public static boolean chkarr(int[][] arr, int[][] brr)
+    public static boolean chkarr(int[][] arr, int[][] brr)	//Çà·Ä °ö¼À °¡´É ÆÇ´Ü
     {
         if(arr[0].length == brr.length)
             return true;
@@ -22,7 +22,7 @@ public class MatrixMultiplication
             return false;
     }
     
-    public static int[][] muparr(int[][] arr, int[][] brr)
+    public static int[][] muparr(int[][] arr, int[][] brr)	//Çà·Ä °ö¼À
     {
         int result[][] = new int[arr.length][brr[0].length];
 
